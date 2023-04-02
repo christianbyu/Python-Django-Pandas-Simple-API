@@ -17,3 +17,15 @@ pip install pandas
 ```
 python app.py
 ```
+
+### Postman testing
+
+1. GET Method
+
+```
+curl --location 'http://localhost:5000/api/csv'
+```
+
+```
+curl --location 'http://localhost:5000/api/newsapi'
+```
